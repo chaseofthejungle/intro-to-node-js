@@ -1,8 +1,13 @@
 # Intro to Node.js
     
+#### Table of Contents
+  
+1. [14 Techniques for Optimizing Node.js](#techniques)
+2. [Supplemental Resources](#supplemental)
+  
 <hr />
 
-## 1. 14 Techniques for Optimizing Node.js
+## 1. <a name="techniques">14 Techniques for Optimizing Node.js</a>
    
 * Asynchronous Function Utilization
 * Circuit Break Functions that are Likely to Fail
@@ -20,7 +25,14 @@
 * Utilize HTTP/2
   
 <hr />
+
+## 2. <a name="supplemental">Supplemental Resources</a>
+
+* *[Intro to MERN and MEAN Stack Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)*
+* *[Intro to ReactJS Guide](https://github.com/chaseofthejungle/intro-to-reactjs)*  
+* *[JavaScript Concepts Guide](https://github.com/chaseofthejungle/js-concepts-guide)*
+  
+<hr />
   
 **TODO #1:** Add definition/overview of Node.js.  
-**TODO #2:** Add supplemental resources.  
-**TODO #3:** Add details for '14 Techniques' section. 
+**TODO #2:** Add details for '14 Techniques' section. 

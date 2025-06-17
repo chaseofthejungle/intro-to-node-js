@@ -1,5 +1,9 @@
 # Intro to Node.js
-    
+  
+**Definition/Overview:** Node.js provides developers with an open source and cross-platform (e.g., hardware architectures, operating systems) JavaScript (JS) runtime environment, allowing for the use of JS code (which is ran outside of a web browser, via the V8 JS engine) to perform server-side scripting and create command line based utilities.
+
+A common implementation of Node.js is to have code execute server-side, producing dynamic web page content prior to pages being sent to a client (web browser). Web apps with high scalability and performance obligations (such as HTML web browser games and messaging platforms) benefit from Node.js's asynchronous input/output functionality.
+  
 #### Table of Contents
   
 1. [14 Techniques for Optimizing Node.js](#techniques)
@@ -34,5 +38,4 @@
   
 <hr />
   
-**TODO #1:** Add definition/overview of Node.js.  
-**TODO #2:** Add details for '14 Techniques' section. 
+**TODO:** Add details for '14 Techniques' section. 

@@ -13,20 +13,34 @@ A common implementation of Node.js is to have code execute server-side, producin
 
 ## 1. <a name="techniques">14 Techniques for Optimizing Node.js</a>
    
-* Asynchronous Function Utilization
-* Circuit Break Functions that are Likely to Fail
-* Decrease the 'Time to First Byte' (TTFB) Metric
-* Do Not Use API Cookies and Sessions
-* Employ Throttling
-* Enable Caching
-* Error Script Logging
-* Improve Database Query Processing Efficacy
-* Keep Apps Alive by Using PM2 Clustering
-* Keep Node.js Updated
-* Make Use of Profilers
-* Modularize  Architecture and Code Design
-* Run Parallel Tasks
-* Utilize HTTP/2
+* **Asynchronous Function Utilization**
+  + Asynchronous functions enable processors to handle more than one request at the same time, with non-blocking input/output functionality.
+* **Circuit Break Functions that are Likely to Fail**
+  + If a function is highly plausible to fail upon execution, it can be kept from running at all.  
+* **Decrease the 'Time to First Byte' (TTFB) Metric**
+  + How long it takes for a client (e.g., web browser) to receive its first data byte from a server can be minimized.
+* **Do Not Use API Cookies and Sessions**
+  + Authentication controls can be supplied by stateless API systems, with the client storing authentication tokens (reducing processor burden for the server).
+* **Employ Throttling**
+  + This reduces how many client requests are to be accepted for processing at one time.
+* **Enable Caching**
+  + When repeated requests are anticipated, they can be handled predictably (and more quickly).
+* **Error Script Logging**
+  + Bugs might be acknowledged and solved more rapidly when logs are consulted/employed.
+* **Improve Database Query Processing Efficacy**
+  + Discover the queries that slow the processor down, and modify them appropriately. 
+* **Keep Apps Alive by Using PM2 Clustering**
+  + Apps can be kept up and refreshed via PM2 (a load balance that is built into Node.js for production process management).
+* **Keep Node.js Updated**
+  + Utilizing the latest versions of Node.js can lead to stronger performance for various reasons (such as more robust logic and patching).
+* **Make Use of Profilers**
+  +  Profilers can discover processor performance issues, and be of assistance with error correction.
+* **Modularize  Architecture and Code Design**
+  + This makes apps less complicated and easier to understand and maintain.
+* **Run Parallel Tasks**
+  + This can improve processor performance (decreased wait times).
+* **Utilize HTTP/2**
+  + Advantages of HTTP/2 over HTTP include multiplexing and header compression.
   
 <hr />
 
@@ -38,4 +52,4 @@ A common implementation of Node.js is to have code execute server-side, producin
   
 <hr />
   
-**TODO:** Add details for '14 Techniques' section. 
+**TODO:** Add 2 sections on installation info and MERN/MEAN stack development.

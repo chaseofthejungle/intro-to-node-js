@@ -6,12 +6,20 @@ A common implementation of Node.js is to have code execute server-side, producin
   
 #### Table of Contents
   
-1. [14 Techniques for Optimizing Node.js](#techniques)
-2. [Supplemental Resources](#supplemental)
+1. [Installing Node.js](#installation)
+2. [14 Techniques for Optimizing Node.js](#techniques)
+3. [MERN Stack Development](#mern)
+4. [Supplemental Resources](#supplemental)
+  
+<hr />
+  
+## 1. <a name="installation">Installing Node.js</a>
+  
+Directions for installing Node.js via a variety of platforms and package managers can be found at the technology's <a href="https://nodejs.org/en/download">official website</a>.
   
 <hr />
 
-## 1. <a name="techniques">14 Techniques for Optimizing Node.js</a>
+## 2. <a name="techniques">14 Techniques for Optimizing Node.js</a>
    
 * **Asynchronous Function Utilization**
   + Asynchronous functions enable processors to handle more than one request at the same time, with non-blocking input/output functionality.
@@ -43,13 +51,17 @@ A common implementation of Node.js is to have code execute server-side, producin
   + Advantages of HTTP/2 over HTTP include multiplexing and header compression.
   
 <hr />
-
-## 2. <a name="supplemental">Supplemental Resources</a>
+  
+## 3. <a name="mern">MERN Stack Development</a>
+  
+TODO
+  
+<hr />
+  
+## 4. <a name="supplemental">Supplemental Resources</a>
 
 * *[Intro to MERN and MEAN Stack Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)*
 * *[Intro to ReactJS Guide](https://github.com/chaseofthejungle/intro-to-reactjs)*  
 * *[JavaScript Concepts Guide](https://github.com/chaseofthejungle/js-concepts-guide)*
   
 <hr />
-  
-**TODO:** Add 2 sections on installation info and MERN/MEAN stack development.

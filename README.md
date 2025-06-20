@@ -8,7 +8,7 @@ A common implementation of Node.js is to have code execute server-side, producin
   
 1. [Installing Node.js](#installation)
 2. [14 Techniques for Optimizing Node.js](#techniques)
-3. [MERN Stack Development](#mern)
+3. [MEAN and MERN Stack Development](#stackdev)
 4. [Supplemental Resources](#supplemental)
   
 <hr />
@@ -52,9 +52,9 @@ Directions for installing Node.js via a variety of platforms and package manager
   
 <hr />
   
-## 3. <a name="mern">MERN Stack Development</a>
+## 3. <a name="stackdev">MEAN and MERN Stack Development</a>
   
-TODO
+MEAN and MERN stack developers are JavaScript web app creators who combine client and server side development with database operations. For more information, consult: [Intro to MERN and MEAN Stack Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack).
   
 <hr />
   

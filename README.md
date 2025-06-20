@@ -7,9 +7,10 @@ A common implementation of Node.js is to have code execute server-side, producin
 #### Table of Contents
   
 1. [Installing Node.js](#installation)
-2. [14 Techniques for Optimizing Node.js](#techniques)
-3. [MEAN and MERN Stack Development](#stackdev)
-4. [Supplemental Resources](#supplemental)
+2. [Getting Started](#getting-started)
+3. [14 Techniques for Optimizing Node.js](#techniques)
+4. [MEAN and MERN Stack Development](#stackdev)
+5. [Supplemental Resources](#supplemental)
   
 <hr />
   
@@ -18,8 +19,32 @@ A common implementation of Node.js is to have code execute server-side, producin
 Directions for installing Node.js via a variety of platforms and package managers can be found at the technology's <a href="https://nodejs.org/en/download">official website</a>.
   
 <hr />
+  
+## 2. <a name="getting-started">Getting Started</a>
 
-## 2. <a name="techniques">14 Techniques for Optimizing Node.js</a>
+Node can be run at command line using the ``node`` command/keyword.
+  
+A popular naming convention for the core file of a JS app is 'app.js.'. Thus, to run a file named app.js in Node:
+
+```
+node app.js
+```
+
+Node integrates a package management tool known as *npm*, which is used for fetching and installing third-party libraries to enhance apps. As an example: MEAN and MERN stack developers utilize a JS framework technology known as *ExpressJS* to create server-side (backend) APIs (in other words, to handle client requests by serving back data to clients). To install Express, the following command could be used:
+
+```
+npm install express
+```
+
+Within actual JS code, Express might then be imported using the following statement:
+  
+```
+const express = require('express');
+```
+  
+<hr />
+  
+## 3. <a name="techniques">14 Techniques for Optimizing Node.js</a>
    
 * **Asynchronous Function Utilization**
   + Asynchronous functions enable processors to handle more than one request at the same time, with non-blocking input/output functionality.
@@ -52,16 +77,14 @@ Directions for installing Node.js via a variety of platforms and package manager
   
 <hr />
   
-## 3. <a name="stackdev">MEAN and MERN Stack Development</a>
+## 4. <a name="stackdev">MEAN and MERN Stack Development</a>
   
 MEAN and MERN stack developers are JavaScript web app creators who combine client and server side development with database operations. For more information, consult: [Intro to MERN and MEAN Stack Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack).
   
 <hr />
   
-## 4. <a name="supplemental">Supplemental Resources</a>
+## 5. <a name="supplemental">Supplemental Resources</a>
 
 * *[Intro to MERN and MEAN Stack Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)*
 * *[Intro to ReactJS Guide](https://github.com/chaseofthejungle/intro-to-reactjs)*  
 * *[JavaScript Concepts Guide](https://github.com/chaseofthejungle/js-concepts-guide)*
-  
-<hr />
